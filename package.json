@@ -1,0 +1,19 @@
+{
+  "name": "servico-nodejs",
+  "version": "1.0.0",
+  "description": "A service using nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "Renan Lopes Goncalves",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "nedb": "^1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  }
+}
