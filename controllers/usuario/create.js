@@ -1,7 +1,6 @@
 const db = require('../../config/database');
 
 module.exports = async (req, res) => {
-    console.log(req.headers['content-type'])
 
     if (req.headers['content-type'] !== 'application/json') {
         res.status(400).json({
